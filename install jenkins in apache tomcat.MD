@@ -12,6 +12,6 @@
 ```
 4.Start tomcat
 ```sh
-  $ cd /opt/tomcat/
-  $ ./bin/startup.sh
+   $ cd /opt/tomcat/
+   $ ./bin/startup.sh
 ```
