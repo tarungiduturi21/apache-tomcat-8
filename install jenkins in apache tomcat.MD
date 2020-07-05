@@ -4,7 +4,7 @@
 ```
 2.Copy jenkins.war file into tomcat webapps folder
 ```sh
-   $ sudo cp -rv jenkins.war /opt/tomcat/webapps
+   $ sudo cp -avr jenkins.war /opt/tomcat/webapps
 ```
 3.Change permission to tomcat
 ```sh
