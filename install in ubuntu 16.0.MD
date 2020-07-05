@@ -26,6 +26,8 @@ sudo chown -R tomcat webapps/ work/ temp/ logs/
 Step 5: Create a systemd Service File
 ```sh
 sudo update-java-alternatives -l
+```
+```sh
      Output
      java-1.8.0-openjdk-amd64       1081       /usr/lib/jvm/java-1.8.0-openjdk-amd64
 
