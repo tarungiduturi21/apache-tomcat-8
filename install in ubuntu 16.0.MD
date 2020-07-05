@@ -1,22 +1,9 @@
-1. Create Ubuntu EC2 instance
-1. install AWSCLI
-   ```sh
-    curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
-    apt install unzip python -y
-    unzip awscli-bundle.zip
-    #sudo apt-get install unzip - if you dont have unzip in your system
-    ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
-
 Step 1: Install Java
-   ```sh
     sudo apt-get update
     sudo apt-get install default-jdk
-    ```
 Step 2: Create Tomcat User
-```sh
-sudo groupadd tomcat
-sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
-```
+    sudo groupadd tomcat
+    sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 Step 3: Install Tomcat
 ```sh
 cd /tmp
