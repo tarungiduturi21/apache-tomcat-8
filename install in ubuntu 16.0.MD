@@ -1,9 +1,13 @@
 Step 1: Install Java
-    sudo apt-get update
-    sudo apt-get install default-jdk
+```sh
+sudo apt-get update
+sudo apt-get install default-jdk
+```
 Step 2: Create Tomcat User
-    sudo groupadd tomcat
-    sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+```sh
+sudo groupadd tomcat
+sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+```
 Step 3: Install Tomcat
 ```sh
 cd /tmp
