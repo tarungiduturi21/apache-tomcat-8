@@ -4,11 +4,11 @@
 ```
 2.Copy jenkins.war file into tomcat webapps folder
 ```sh
-   $ cp -rv jenkins.war /opt/tomcat/webapps
+   $ sudo cp -rv jenkins.war /opt/tomcat/webapps
 ```
 3.Change permission to tomcat
 ```sh
-   $ chmod g+w /opt/tomcat
+   $ sudo chmod g+w /opt/tomcat
 ```
 4.Start tomcat
 ```sh
